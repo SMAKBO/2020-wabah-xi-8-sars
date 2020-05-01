@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Pencegahan SARS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+	body, html {
+	  height: 100%;
+  	  font-family: "Inconsolata", sans-serif;}
+
+</style>
+
+	<body>
+		<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding-18 w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">BACK</a>
+    </div>
+  </div>
+</div>
+
+<br></br>
+<br></br>
+
+<div class="w3-panel w3-leftbar w3-light-grey">
+    <footer>
+      <blockquote style="text-align:center;font-size: 20px">"It's kind of fun to do the impossible."</blockquote>
+      <p style="text-align: center;"><i>-Walt Disney</i></p>
+    </footer>
+  </div>
+
+<!-- Menu Container -->
+<div class="w3-content" style="max-width:700px">
+  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide"><font face="calibri" color="white" style="font-size: 32px ">PENCEGAHAN SARS</font><br></span></h5>
+ 
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Self-Caring');" id="myLink">
+        <div class="w3-col s6 tablink">Self-Caring</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Others');">
+        <div class="w3-col s6 tablink">Others</div>
+      </a>
+    </div>
+
+    <div id="Self-Caring" class="w3-container menu w3-padding-48 w3-card">
+      <h5>• Jangan bepergian ke daerah endemik SARS</h5>
+      <p class="w3-text-grey">Hindari berlibur atau sekedar singgah ke daerah atau wilayah yang menjadi tempat penyebaran virus SARS.</p><br>
+    
+      <h5>• Hindari pusat keramaian dan gunakan masker</h5>
+      <p class="w3-text-grey">"Social Distancing" begitulah bahasa kerennya. Oh iya! Untuk mencegah krisis APD, sebaiknya penggunaan masker dilakukan seperlunya saja.</p><br>
+    
+      <h5>• Terapkan hand hygiene, cuci tangan dengan air mengalir dan sabun. Jika tidak ada, gunakan hand sanitizer yang mengandung alcohol 60-95%</h5>
+      <p class="w3-text-grey">Ingat! Ikuti anjuran cara mencuci tangan yang benar menurut WHO.</p><br>
+    
+      <h5>• Jangan menyentuh mata, hidung, atau mulut sebelum cuci tangan</h5>
+      <p class="w3-text-grey">Karena SARS ini merupakan virus yang menyerang saluran pernapasan, maka ketiga anggota tubuh ini menjadi perantara penyebaran virus yang paling rentan.</p><br>
+    
+   
+    </div>
+
+    <div id="Others" class="w3-container menu w3-padding-48 w3-card">
+      <h5>• Segera ke IGD untuk menjalani pemeriksaan dan perawatan</h5>
+      <p class="w3-text-grey">Jika gejala dari penyakit SARS sudah dirasakan, sebaiknya dilakukan pemeriksaan lebih lanjut untuk memutus rantai penyebarannya.</p><br>
+    
+      <h5>• Hindari kontak jarak dekat dengan orang lain</h5>
+      <p class="w3-text-grey">Jika kalian menyayangi keluarga kalian, jangan berdekatan dengan mereka. Tetap jaga jarak aman.</p><br>
+    
+      <h5>• Jangan berbagi penggunaan alat makan dan minum dengan orang lain</h5>
+      <p class="w3-text-grey">Penggunaan alat makan dan minum bersama dapat menjadi sarana penyebaran virus SARS karena air liur penderita dapat menginfeksi orang lain.</p><br>
+    
+      <h5>• Kenakan masker dan sarung tangan</h5>
+      <p class="w3-text-grey">Hal ini wajib dilakukan untuk menjaga lingkungan sekitar penderita tetap steril sehingga tidak menularkannya kembali ke orang lain.</p><br>
+
+          </div>
+        </div>
+
+    
+      
+</div>
+
+<div>
+<br></br>
+  <div class="w3-container w3-padding-18 w3-center w3-opacity w3-xlarge w3-black">
+<footer style="text-align:center;color:white;">
+Sheren Regina Artamevia
+</footer>
+</div>
+
+  <script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+ <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/green-bintang-jatuh.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
+
